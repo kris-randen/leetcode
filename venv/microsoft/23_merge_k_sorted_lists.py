@@ -40,14 +40,6 @@ Accepted    Submissions
 """
 
 
-# Definition for singly-linked list.
-class ListNode:
-    # noinspection PyShadowingBuiltins
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
-
-
 def make_list(arr):
     # print(f'arr = {arr}')
     if not arr:
