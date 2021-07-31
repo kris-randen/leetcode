@@ -38,6 +38,8 @@ def myPow(x: float, n: int) -> float:
     """
     Runtime: 24 ms, faster than 96.07% of Python3 online submissions for Pow(x, n).
     Memory Usage: 14.2 MB, less than 79.22% of Python3 online submissions for Pow(x, n).
+
+    
     """
     if not n:
         return 1
