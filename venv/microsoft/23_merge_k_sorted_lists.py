@@ -66,10 +66,10 @@ def print_list(l):
 
 
 # Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
 
 def comp(p, q):
     return p.val < q.val
@@ -104,12 +104,6 @@ def merge_k_lists_rec(ll):
     if p and q:
         p, q = comp_and_swap(p, q)
     return merge_2_lists(p, q)
-
-
-# class Solution:
-#     def mergeKLists(self, ll: List[ListNode]) -> ListNode:
-#         kk = list(filter(None, ll))
-#         return merge_k_lists_rec(kk)
 
 
 if __name__ == '__main__':
